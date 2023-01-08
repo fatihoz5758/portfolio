@@ -1,0 +1,61 @@
+/* <i class="fa-solid fa-parachute-box"></i> */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    background-color: rgb(178, 214, 245);
+}
+header{
+    max-width: 980px;
+    min-width: 360px;
+    border: 1px;
+    background-color: rgb(231, 195, 147);
+    margin: 0 10%;
+}
+nav{
+    width: 100%;
+	height: 50px;
+	background: #830d0f;
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+.menu ul {
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+}
+.menu ul li {
+	float: left;
+	
+}
+.menu ul li a {
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+	font-size: 16px;
+	color: white;
+	font-weight: bold;
+	text-decoration: none;
+	display: block;
+	width: 163.33px;
+	height: 50px;
+	text-align: center;
+	line-height: 50px;
+}
+.menu ul li a:hover {
+	color:#830d0f;
+	background: white;
+	text-decoration: underline;
+	font-size: 18px;
+	transition: 1s;
+	transform: rotate(360deg);
+}
+.slider{
+    background-image: url(selection/image2.jpg);	
+    width: 100%;
+    
+	height: 500px;
+	border-radius: 30px;
+	
+}
