@@ -8,6 +8,7 @@
 body {
    
     background-color: rgb(178, 214, 245);
+	
 }
 
 header {
@@ -63,100 +64,24 @@ nav {
 /* menü bölümü */
 
 .main {
-	width: 980px;
+	max-width: 980px;
 	height: 400px;
 	margin-top: 20px;
+	display: inline;
+	margin-bottom: 50px;
 	
 }
-.mainSol {
-	width: 450px;
-	height: 360px;
-	margin-left: 20px;
-	margin-right: 40px;
-	margin-top: 20px;
-	float: left;
-	
-}
-.mainSag {
-	width: 450px;
-	height: 360px;
-	margin-top: 20px;
-	float: left;
-}
-.sol1 {
-	width: 450px;
-	height: 170px;
-	margin-bottom: 20px;
-	background: #830d0f;
-	
-}
-.sol1 p {
-	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
-	color: white;
-	font-size: 16px;
-	text-align: justify;
-	padding: 15px;
-	
-}
-
-.sol2 {
-	width: 450px;
-	height: 170px;
-	background: #830d0f;
-	
-}
-.sol2 p {
-	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
-	color: white;
-	font-size: 16px;
-	text-align: justify;
-	padding: 15px;
-}
-.box1 {
-	width: 195px;
-	height: 150px;
-	margin: 20px;
-	float: left;
-	
-	
-	
-}
-.box2 {
-	width: 195px;
-	height: 150px;
-	margin: 20px 0px 20px 0px;
-	float: left;
-	
-}
-.box3 {
-	width: 195px;
-	height: 150px;
-	margin: 0px 20px 0px 20px;
-	float: left;
-	
-	
-}
-.box4 {
-	width: 195px;
-	height: 150px;
-	float: left;
+.main .box1 .box2 .box3 .box4 .box5 .box6{
+	max-width: 195px;
+	height: auto;
 
 }
-.box5 {
-	width: 195px;
-	height: 150px;
-	float: left;
 
-}
-.box6 {
-	width: 195px;
-	height: 150px;
-	float: left;
-
-}
 img{
     width: 150px;
     height: 195px;
+	margin-right: 30px;
+	margin-top: 100px;
    
 }
 
